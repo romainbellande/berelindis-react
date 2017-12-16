@@ -1,0 +1,11 @@
+@import 'lib';
+
+.Title {
+  &__content {
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+}

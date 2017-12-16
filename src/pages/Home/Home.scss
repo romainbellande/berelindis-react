@@ -1,0 +1,8 @@
+.Home {
+  display: flex;
+  justify-content: space-between;
+
+  &__center {
+    width: calc(99% - 600px);
+  }
+}

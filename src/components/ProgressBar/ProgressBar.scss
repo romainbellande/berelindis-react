@@ -1,0 +1,31 @@
+@import 'lib';
+
+@keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.ProgressBar {
+  background: darken($color__brown, 20%);
+  margin: 20px 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  box-sizing: border-box;
+
+  &__interior {
+    margin-left: 0;
+    height: 90%;
+    background: $color__green-light;
+    animation: progress 4s forwards;
+    box-sizing: border-box;
+  }
+}

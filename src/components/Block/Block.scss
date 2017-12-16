@@ -1,0 +1,8 @@
+@import 'lib';
+
+.Block {
+  border: 1px solid $color__green-light;
+  box-sizing: border-box;
+  @include box-shadow;
+  padding: 15px;
+}
